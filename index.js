@@ -31,7 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
       <h3>${studentName}</h3>
       <p>has almost completed the</p>
       <h3>${courseName}</h3>
-      <p>with legendary perseverance and world-class bad-assery for never giving up</p>
+      <p>with legendary perseverance and world-class bad-assery for never giving up🏆</p>
+      //<img src = "logo.png" alt = "CodeSpace logo" height = "auto" width = "300px">
+      <p>${personalMessage}
     `;
     
       //  Display the modal
@@ -45,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     //  🚨 Close the modal when the close button is clicked
     closeModal.addEventListener('click', function () {
-      
+      modal.style.display = 'none';
     });
   });
   
